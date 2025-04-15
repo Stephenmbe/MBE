@@ -11,4 +11,5 @@ def about():
     return send_from_directory('.', 'about.html')
 
 if __name__ == '__main__':
-    app.run()
+    # Use host='0.0.0.0' and the port=8000 to make it accessible externally
+    app.run(host='0.0.0.0', port=8000)
