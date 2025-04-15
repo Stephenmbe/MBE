@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: council-for-gooners
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
